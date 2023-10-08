@@ -9,13 +9,30 @@ This is a simplified "Video Clone" web application built using React.js. It allo
 
 To get started with this project, follow these steps:
 
-1. Clone the repository to your local machine:
+### Prerequisites
 
-   bash
-   git clone https://github.com/your-username/video-clone.git
-   cd video-clone
+- npm (Node Package Manager) or yarn.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thisistanzeela/Video_Streamify.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd Video_Streamify
+   
+3. Install the dependencies:
+   ```bash
+   npm install
+   
+4. Start the development server:
+   ```bash
    npm start
-2. Open your web browser and visit http://localhost:3000 to view the application.
+   
+5. Open your web browser and visit `https://video-streamify.onrender.com/` to view the application.
 
 ## Features
 - View a list of video thumbnails.
@@ -27,7 +44,6 @@ To get started with this project, follow these steps:
 - React.js
 - React Router (for routing)
 - HTML5 Video (for video playback)
-- Tailwind CSS (for styling)
 - Axios (for API requests)
 
 ## API Pagination
