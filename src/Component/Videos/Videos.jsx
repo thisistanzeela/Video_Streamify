@@ -6,7 +6,7 @@ import "./VideoStyle.css";
 function RecommendedVideos() {
   const [videos, setVideos] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
-  const [currentVideo, setCurrentVideo] = useState(null); // Define currentVideo state
+  const [currentVideo, setCurrentVideo] = useState(null);
 
   useEffect(() => {
     fetchVideos(currentPage);
@@ -76,3 +76,4 @@ function RecommendedVideos() {
 }
 
 export default RecommendedVideos;
+

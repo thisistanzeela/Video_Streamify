@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeaderStyle.css';
-import { FaHeart } from 'react-icons/fa'; 
+import { FaHeart } from 'react-icons/fa';
 
 function Header() {
   const handleAddFavorite = () => {
@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div className="header_right">
         <button className="favorite-button" onClick={handleAddFavorite}>
-          <FaHeart  style={{color:"white" ,marginTop:"10px",fontSize:"22px"}}/>
+          <FaHeart  style={{color:"white" ,marginTop:"6px",fontSize:"22px"}}/>
         </button>
       </div>
     </div>

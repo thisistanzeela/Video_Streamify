@@ -1,11 +1,13 @@
 .header{
-    background-color: rgba(31, 21, 31, 0.419);
+    background-color: rgba(28, 26, 28, 0.989);
     display: flex;
     justify-content: space-between;
     padding:0px 10px;
+    color: rgb(228, 184, 228);
 }
 .favorite-button{
     border: 1px solid white;
+    margin-top: 6px;
 }
 .favorite-button:hover{
     border: 1px solid white;

@@ -1,43 +1,70 @@
-.videoCard {
-    margin-bottom: 20px;
-    width: 270px;
-    border: 1px solid rgba(53, 8, 65, 0.079);
-    border-radius: 6px;
-    box-shadow: 0px 0px 2px purple;
-    background-color:rgba(137, 81, 137, 0.34);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.videoCard-thumbnail {
+.card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 24px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: red;
+    font-size: 24px;
+    padding:5%
+}
+
+.channel-info {
+    position: absolute;
+    top: 8px;
+    left: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    height:350px;
-    width: 270px;
+    padding:5%
 }
 
-.videoCard-info {
-    display: flex;
-    align-items: center;
-  color: rgb(66, 6, 66);
-  font-size: 20px;
+.channel-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    padding:5%
 }
 
-.videoCard-text {
-    margin-left: 15px;
-}
-
-.videoCard-text > h4 {
+.channel-name {
     font-size: 14px;
-    margin-bottom: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
-.videoCard-text > p {
-    font-size: 14px;
-    color: gray;
+.card-bg img {
+    width: 100%;
+    height: auto;
 }
 
-.video-avatar {
-    height: 30px !important;
-    width: 30px !important;
+.footer {
+    background-color: #fff;
+    padding: 12px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.views-count {
+    font-size: 12px;
+    color: #777;
 }

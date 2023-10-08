@@ -1,22 +1,23 @@
 .recommendedVideos {
     background-color: #f9f9f9;
-    padding: 20px 20px;
-    padding-bottom: 0;
 }
 .recommendedVideos_videos {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .pagination{
     display: flex;
     justify-content: center;
     color: rgb(58, 1, 58); 
+    margin: 26px;
 }
 button{
     border: 1px solid rgb(58, 1, 58);
     background-color: transparent;
-    margin: 10px;
+    border-radius: 8px ;
     display: inline;
     padding: 10px 20px;
     font-weight: 700;
@@ -26,15 +27,13 @@ button{
 button:hover{
     border: 2px solid rgb(58, 1, 58);
     background-color: transparent;
-    margin: 10px;
     display: inline;
-    padding: 10px 20px;
     font-weight: 700;
     font-size: 16px;
     color: rgb(58, 1, 58); 
 }
 .pagination span{
-    margin: 20px;
+    margin: 10px;
 }
 .disabled-button {
     opacity: 0.5;
