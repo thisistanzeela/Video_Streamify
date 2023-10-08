@@ -1,0 +1,12 @@
+.header{
+    background-color: rgba(31, 21, 31, 0.419);
+    display: flex;
+    justify-content: space-between;
+    padding:0px 10px;
+}
+.favorite-button{
+    border: 1px solid white;
+}
+.favorite-button:hover{
+    border: 1px solid white;
+}

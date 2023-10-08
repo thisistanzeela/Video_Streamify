@@ -1,0 +1,43 @@
+.videoCard {
+    margin-bottom: 20px;
+    width: 270px;
+    border: 1px solid rgba(53, 8, 65, 0.079);
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px purple;
+    background-color:rgba(137, 81, 137, 0.34);
+}
+
+.videoCard-thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height:350px;
+    width: 270px;
+}
+
+.videoCard-info {
+    display: flex;
+    align-items: center;
+  color: rgb(66, 6, 66);
+  font-size: 20px;
+}
+
+.videoCard-text {
+    margin-left: 15px;
+}
+
+.videoCard-text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videoCard-text > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.video-avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
