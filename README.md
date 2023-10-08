@@ -2,6 +2,9 @@
 
 This is a simplified "Video Clone" web application built using React.js. It allows users to view a list of predefined video thumbnails, click on a thumbnail to play the video, and see basic information about the video.
 
+## Project Link
+[Visit the Hosted Website](https://video-streamify.onrender.com/)
+
 ## Getting Started
 
 To get started with this project, follow these steps:
